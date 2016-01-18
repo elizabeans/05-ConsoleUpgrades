@@ -1,0 +1,16 @@
+﻿<Window x:Class="CollatzConjectureUpgrade.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CollatzConjectureUpgrade"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="textBlockSteps" HorizontalAlignment="Left" Margin="168,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231"/>
+        <TextBlock x:Name="textBlockPeak" HorizontalAlignment="Left" Margin="168,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231"/>
+        <TextBox x:Name="textBoxNumber" Height="20" Margin="168,30,199,0" TextWrapping="Wrap" Text="Enter a number" VerticalAlignment="Top"/>
+        <Button x:Name="buttonCollatz" Content="Do the Collatz Conjecture!" Margin="168,55,199,0" VerticalAlignment="Top" Click="buttonCollatz_Click"/>
+
+    </Grid>
+</Window>
